@@ -1,0 +1,30 @@
+.banner {
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  padding: 30px 0; }
+  .banner .banner-img img {
+    width: 100%;
+    height: auto; }
+  .banner .nut-slide {
+    font-size: 30px; }
+    .banner .nut-slide .nut-next {
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;
+      right: -10%;
+      top: 40%; }
+    .banner .nut-slide .nut-prev {
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;
+      left: -10%;
+      top: 40%; }
+  .banner .sp-buttons .sp-button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(68, 68, 68, 0.575); }
+  .banner .sp-buttons .sp-selected-button {
+    background-color: #a0a0a054; }
